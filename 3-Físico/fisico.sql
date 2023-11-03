@@ -2,8 +2,6 @@ CREATE DATABASE IF NOT EXISTS FISICOSQL
 
 USE FISICOSQL
 
-/* Lógico_1: */
-
 CREATE TABLE VEICULO (
     placa VARCHAR(8) PRIMARY KEY,
     chassi VARCHAR(17),
@@ -27,10 +25,10 @@ CREATE TABLE PROPRIETARIO (
 );
 
 CREATE TABLE INFRACAO (
-    data VARCHAR(14),
+    dataDoAuto VARCHAR(14),
     hora INT(4),
     tipoDeInfracao INT(1),
-    local VARCHAR(50),
+    localDoAuto VARCHAR(50),
     velocidade INT(6),
     idInfracao INT(2) PRIMARY KEY,
     FK_PROPRIETARIO_cpf VARCHAR(14),
