@@ -1,7 +1,7 @@
 
 USE FISICOSQL
 
-INSERT INTO LOCAL (latitude, longitude,velocidadeMaxPermitida)
+INSERT INTO LOCALIDADE (latitude, longitude,velocidadeMaxPermitida)
     VALUES
         (-20,-20,30),
         (-10,10,30),

@@ -35,7 +35,7 @@ CREATE TABLE INFRACAO (
     FK_AGENTE_matricula INT(8)
 );
 
-CREATE TABLE LOCAL (
+CREATE TABLE LOCALIDADE (
     latitude INT(8),
     longitude INT(8),
     velocidadeMaxPermitida INT(6),
